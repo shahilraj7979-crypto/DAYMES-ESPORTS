@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="hero-svg-title hero-svg-desc">
+  <title id="hero-svg-title">Futuristic Cybernetic Gaming Hero</title>
+  <desc id="hero-svg-desc">A glowing neon cyberpunk gaming avatar with holographic visor and geometric energy grid in deep space</desc>
+  <defs>
+    <linearGradient id="hero-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d1a" />
+      <stop offset="50%" stop-color="#121829" />
+      <stop offset="100%" stop-color="#060810" />
+    </linearGradient>
+    <linearGradient id="neon-cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="neon-purple-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <radialGradient id="cyber-glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35" />
+      <stop offset="45%" stop-color="#8b5cf6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" fill="url(#hero-bg-grad)" rx="16" />
+  <rect width="800" height="600" fill="url(#grid-pattern)" rx="16" opacity="0.8" />
+  
+  <!-- Perspective Cyber Grid at bottom -->
+  <g opacity="0.45">
+    <line x1="0" y1="560" x2="800" y2="560" stroke="#00f0ff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="510" x2="800" y2="510" stroke="#00f0ff" stroke-width="1" opacity="0.4"/>
+    <line x1="0" y1="470" x2="800" y2="470" stroke="#00f0ff" stroke-width="0.75" opacity="0.25"/>
+    <line x1="100" y1="600" x2="350" y2="440" stroke="#00f0ff" stroke-width="1" opacity="0.3"/>
+    <line x1="250" y1="600" x2="380" y2="440" stroke="#00f0ff" stroke-width="1" opacity="0.3"/>
+    <line x1="400" y1="600" x2="400" y2="440" stroke="#00f0ff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="550" y1="600" x2="420" y2="440" stroke="#00f0ff" stroke-width="1" opacity="0.3"/>
+    <line x1="700" y1="600" x2="450" y2="440" stroke="#00f0ff" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Radial Core Glow -->
+  <circle cx="400" cy="270" r="280" fill="url(#cyber-glow)" />
+
+  <!-- Geometric Rings & Floating HUD elements -->
+  <g stroke="#00f0ff" stroke-width="1.5" fill="none" opacity="0.5" filter="url(#glow-filter)">
+    <circle cx="400" cy="260" r="180" stroke-dasharray="12 8" />
+    <circle cx="400" cy="260" r="220" stroke-dasharray="6 24" stroke="#d946ef" opacity="0.4" />
+    <circle cx="400" cy="260" r="140" stroke="#3b82f6" stroke-width="1" />
+  </g>
+
+  <!-- Futuristic Avatar / Cyber Warrior Silhouette -->
+  <!-- Shoulders & Armor -->
+  <path d="M220 540 L280 430 L340 370 L400 385 L460 370 L520 430 L580 540 Z" fill="#141a29" stroke="#334155" stroke-width="2"/>
+  <path d="M270 450 L340 390 L400 405 L460 390 L530 450 L400 490 Z" fill="#1e2638" stroke="#00f0ff" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Armor Accents & Neon Piping -->
+  <path d="M300 480 L350 420 L400 435 L450 420 L500 480" fill="none" stroke="url(#neon-cyan-grad)" stroke-width="3" filter="url(#glow-filter)"/>
+  <path d="M340 450 L400 465 L460 450" fill="none" stroke="url(#neon-purple-grad)" stroke-width="2.5" filter="url(#glow-filter)"/>
+
+  <!-- Neck & Collar -->
+  <polygon points="360,380 440,380 430,340 370,340" fill="#161e31" stroke="#00f0ff" stroke-width="1" />
+
+  <!-- Helmet / Head Base -->
+  <path d="M350 340 L340 250 L370 180 L400 160 L430 180 L460 250 L450 340 L415 365 L385 365 Z" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+  
+  <!-- Sleek Angular Visor (Illuminated Neon Cyan) -->
+  <polygon points="345,245 455,245 440,285 400,295 360,285" fill="url(#neon-cyan-grad)" filter="url(#glow-filter)"/>
+  <line x1="365" y1="265" x2="435" y2="265" stroke="#ffffff" stroke-width="2" opacity="0.9" filter="url(#glow-filter)"/>
+
+  <!-- Headset / Cyber Antennas -->
+  <line x1="330" y1="270" x2="310" y2="210" stroke="#00f0ff" stroke-width="3" stroke-linecap="round" filter="url(#glow-filter)"/>
+  <circle cx="310" cy="210" r="4" fill="#00f0ff" />
+  <line x1="470" y1="270" x2="490" y2="210" stroke="#d946ef" stroke-width="3" stroke-linecap="round" filter="url(#glow-filter)"/>
+  <circle cx="490" cy="210" r="4" fill="#d946ef" />
+
+  <!-- Floating Holographic Data Badges & Decals -->
+  <g transform="translate(120, 140)">
+    <rect width="130" height="42" rx="8" fill="#101726" stroke="#00f0ff" stroke-width="1.2" opacity="0.85"/>
+    <text x="14" y="26" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="bold" fill="#00f0ff" letter-spacing="1.5">FPS: 240 // 4K</text>
+  </g>
+
+  <g transform="translate(550, 140)">
+    <rect width="130" height="42" rx="8" fill="#101726" stroke="#d946ef" stroke-width="1.2" opacity="0.85"/>
+    <text x="14" y="26" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="bold" fill="#f472b6" letter-spacing="1.5">LATENCY: 1ms</text>
+  </g>
+
+  <!-- Glowing Particles / Sparks -->
+  <circle cx="280" cy="180" r="2.5" fill="#00f0ff" opacity="0.8"/>
+  <circle cx="520" cy="190" r="2.5" fill="#f472b6" opacity="0.8"/>
+  <circle cx="210" cy="320" r="3" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="610" cy="310" r="3" fill="#a855f7" opacity="0.7"/>
+  <circle cx="400" cy="120" r="2" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Lower Gradient Vignette for seamless card blend -->
+  <rect y="520" width="800" height="80" fill="url(#hero-bg-grad)" opacity="0.8" />
+</svg>

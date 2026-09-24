@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-labelledby="cr-title cr-desc">
+  <title id="cr-title">Cyber Rift Game Artwork</title>
+  <desc id="cr-desc">A glowing interdimensional portal vortex surrounded by floating sci-fi monoliths and neon laser beams</desc>
+  <defs>
+    <linearGradient id="cr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1c"/>
+      <stop offset="100%" stop-color="#05070e"/>
+    </linearGradient>
+    <linearGradient id="cr-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="cr-portal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <radialGradient id="cr-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cr-blur">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#cr-bg)" rx="12"/>
+
+  <!-- Starfield / Cyber particles -->
+  <g fill="#93c5fd" opacity="0.6">
+    <circle cx="80" cy="60" r="1.5"/>
+    <circle cx="150" cy="110" r="2"/>
+    <circle cx="220" cy="40" r="1"/>
+    <circle cx="480" cy="70" r="1.5"/>
+    <circle cx="530" cy="130" r="2"/>
+    <circle cx="420" cy="40" r="1"/>
+    <circle cx="90" cy="280" r="1.5"/>
+    <circle cx="510" cy="300" r="2"/>
+  </g>
+
+  <!-- Distant Cyber City Grid Horizon -->
+  <path d="M0 260 L600 260" stroke="#1e293b" stroke-width="1.5"/>
+  <path d="M50 260 L100 210 L140 210 L160 260 L240 260 L260 190 L300 190 L330 260 L450 260 L480 220 L510 220 L540 260 Z" fill="#0f172a" opacity="0.8"/>
+
+  <!-- Sci-Fi Floor Grid -->
+  <g stroke="#0284c7" stroke-width="0.8" opacity="0.35">
+    <line x1="300" y1="260" x2="0" y2="380"/>
+    <line x1="300" y1="260" x2="120" y2="380"/>
+    <line x1="300" y1="260" x2="240" y2="380"/>
+    <line x1="300" y1="260" x2="360" y2="380"/>
+    <line x1="300" y1="260" x2="480" y2="380"/>
+    <line x1="300" y1="260" x2="600" y2="380"/>
+    <line x1="0" y1="290" x2="600" y2="290"/>
+    <line x1="0" y1="330" x2="600" y2="330"/>
+  </g>
+
+  <!-- Dimensional Rift Vortex -->
+  <circle cx="300" cy="180" r="110" fill="url(#cr-glow)"/>
+  <ellipse cx="300" cy="180" rx="90" ry="120" fill="none" stroke="url(#cr-portal)" stroke-width="3.5" transform="rotate(-25 300 180)"/>
+  <ellipse cx="300" cy="180" rx="60" ry="90" fill="none" stroke="#00f0ff" stroke-width="2" stroke-dasharray="16 8" transform="rotate(35 300 180)"/>
+  <ellipse cx="300" cy="180" rx="30" ry="50" fill="#ffffff" opacity="0.8" transform="rotate(-15 300 180)"/>
+
+  <!-- Floating Obelisks / Monoliths -->
+  <polygon points="170,120 190,140 185,240 165,220" fill="#1e293b" stroke="#00f0ff" stroke-width="1.2"/>
+  <polygon points="410,110 435,130 425,230 400,210" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2"/>
+
+  <!-- Energy Beams -->
+  <line x1="185" y1="180" x2="280" y2="180" stroke="#00f0ff" stroke-width="2" opacity="0.8" stroke-dasharray="8 4"/>
+  <line x1="410" y1="170" x2="320" y2="180" stroke="#38bdf8" stroke-width="2" opacity="0.8" stroke-dasharray="8 4"/>
+
+  <!-- Title Watermark Badge -->
+  <rect x="24" y="24" width="105" height="28" rx="6" fill="#030712" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
+  <text x="35" y="42" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="bold" fill="#00f0ff" letter-spacing="1">DIMENSION FPS</text>
+</svg>

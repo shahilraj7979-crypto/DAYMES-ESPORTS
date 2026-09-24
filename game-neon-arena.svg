@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-labelledby="na-title na-desc">
+  <title id="na-title">Neon Arena Game Artwork</title>
+  <desc id="na-desc">A high-tech armored mecha warrior standing inside an illuminated neon battle colosseum arena</desc>
+  <defs>
+    <linearGradient id="na-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#12182b"/>
+      <stop offset="100%" stop-color="#05070e"/>
+    </linearGradient>
+    <linearGradient id="na-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="na-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="na-arena-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#na-bg)" rx="12"/>
+
+  <!-- Colosseum Arc Stadium Rings -->
+  <circle cx="300" cy="190" r="150" fill="url(#na-arena-glow)"/>
+  <ellipse cx="300" cy="270" rx="260" ry="80" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="300" cy="290" rx="280" ry="75" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="16 10" opacity="0.5"/>
+  <ellipse cx="300" cy="250" rx="210" ry="60" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
+
+  <!-- Stadium Searchlights / Spotlights -->
+  <polygon points="60,0 200,280 140,280" fill="#06b6d4" opacity="0.08"/>
+  <polygon points="540,0 460,280 400,280" fill="#f59e0b" opacity="0.08"/>
+
+  <!-- Mecha Titan Silhouette in Center -->
+  <!-- Legs & Base -->
+  <polygon points="250,320 270,250 285,250 280,320" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <polygon points="350,320 330,250 315,250 320,320" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <!-- Glowing Knee / Leg Thrusters -->
+  <rect x="255" y="275" width="6" height="15" rx="3" fill="#06b6d4"/>
+  <rect x="339" y="275" width="6" height="15" rx="3" fill="#06b6d4"/>
+
+  <!-- Torso & Plating -->
+  <polygon points="260,250 240,170 300,160 360,170 340,250" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+  <polygon points="280,210 320,210 300,240" fill="#f59e0b" opacity="0.9"/>
+
+  <!-- Mecha Shoulders / Missile Pods -->
+  <polygon points="210,190 240,165 245,210 215,220" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+  <polygon points="390,190 360,165 355,210 385,220" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+
+  <!-- Mecha Head & Optics -->
+  <polygon points="285,160 315,160 310,135 290,135" fill="#111827" stroke="#334155" stroke-width="1.2"/>
+  <!-- Central Glowing Optics -->
+  <line x1="292" y1="145" x2="308" y2="145" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="300" cy="145" r="2" fill="#ffffff"/>
+
+  <!-- Energy Shields / Shockwaves -->
+  <circle cx="300" cy="210" r="105" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="10 20" opacity="0.4"/>
+  <circle cx="300" cy="210" r="75" fill="none" stroke="#06b6d4" stroke-width="1" stroke-dasharray="6 14" opacity="0.4"/>
+
+  <!-- Floating Combat Drones -->
+  <g transform="translate(130, 90)">
+    <polygon points="20,0 35,15 20,30 5,15" fill="#1e293b" stroke="#06b6d4" stroke-width="1"/>
+    <circle cx="20" cy="15" r="4" fill="#06b6d4"/>
+  </g>
+  <g transform="translate(430, 80)">
+    <polygon points="20,0 35,15 20,30 5,15" fill="#1e293b" stroke="#f59e0b" stroke-width="1"/>
+    <circle cx="20" cy="15" r="4" fill="#f59e0b"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="24" y="24" width="130" height="28" rx="6" fill="#030712" stroke="#f59e0b" stroke-width="1" opacity="0.9"/>
+  <text x="33" y="42" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fbbf24" letter-spacing="1">MECHA ROYALE</text>
+</svg>

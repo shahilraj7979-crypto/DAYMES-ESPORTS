@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-labelledby="sp-title sp-desc">
+  <title id="sp-title">Shadow Protocol Game Artwork</title>
+  <desc id="sp-desc">A tactical stealth operative on a rainy cyberpunk rooftop overlooking a neon-drenched metropolis</desc>
+  <defs>
+    <linearGradient id="sp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="sp-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="sp-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="sp-city-glow" cx="60%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#3b82f6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sp-blur">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#sp-bg)" rx="12"/>
+
+  <!-- City Skyline Silhouette -->
+  <circle cx="360" cy="220" r="160" fill="url(#sp-city-glow)"/>
+  
+  <!-- Skyscrapers -->
+  <rect x="60" y="140" width="45" height="180" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="120" y="90" width="60" height="230" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="200" y="130" width="50" height="190" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="270" y="70" width="70" height="250" fill="#0b0f19" stroke="#1e293b" stroke-width="1"/>
+  <rect x="360" y="110" width="55" height="210" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="430" y="80" width="65" height="240" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="515" y="140" width="50" height="180" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Neon Windows & Signs in City -->
+  <g fill="#c084fc" opacity="0.7">
+    <rect x="135" y="110" width="4" height="6"/>
+    <rect x="145" y="110" width="4" height="6"/>
+    <rect x="135" y="130" width="4" height="6"/>
+    <rect x="155" y="150" width="4" height="6"/>
+    <rect x="285" y="90" width="6" height="8"/>
+    <rect x="305" y="110" width="6" height="8"/>
+    <rect x="315" y="140" width="6" height="8"/>
+    <rect x="445" y="100" width="5" height="6" fill="#60a5fa"/>
+    <rect x="460" y="120" width="5" height="6" fill="#60a5fa"/>
+    <rect x="475" y="150" width="5" height="6" fill="#f43f5e"/>
+  </g>
+
+  <!-- Antenna Beacons -->
+  <line x1="150" y1="90" x2="150" y2="60" stroke="#a855f7" stroke-width="1.5"/>
+  <circle cx="150" cy="60" r="3" fill="#ef4444"/>
+  <line x1="305" y1="70" x2="305" y2="40" stroke="#00f0ff" stroke-width="1.5"/>
+  <circle cx="305" cy="40" r="3" fill="#00f0ff"/>
+  <line x1="462" y1="80" x2="462" y2="50" stroke="#a855f7" stroke-width="1.5"/>
+  <circle cx="462" cy="50" r="3" fill="#ef4444"/>
+
+  <!-- Rooftop Foreground -->
+  <polygon points="0,320 280,260 480,270 600,310 600,380 0,380" fill="#070b13" stroke="#334155" stroke-width="1.5"/>
+  <rect x="0" y="325" width="280" height="55" fill="#0d131f"/>
+
+  <!-- Cyberpunk Operative Crouching on Ledge -->
+  <!-- Cloak / Body -->
+  <path d="M190 280 C190 230 220 200 245 200 C270 200 290 235 295 280 Z" fill="#05070c" stroke="#475569" stroke-width="1.2"/>
+  <!-- Hood & Mask -->
+  <circle cx="245" cy="185" r="22" fill="#090d16" stroke="#64748b" stroke-width="1.5"/>
+  <!-- Glowing Tactical Visor / Eye Implants -->
+  <line x1="240" y1="184" x2="255" y2="184" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="258" cy="184" r="1.5" fill="#ffffff"/>
+
+  <!-- Neon Katana / Energy Blade on back -->
+  <line x1="205" y1="250" x2="285" y2="140" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="208" y1="247" x2="282" y2="143" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Rainy atmosphere / streaks -->
+  <g stroke="#38bdf8" stroke-width="1" opacity="0.25">
+    <line x1="100" y1="20" x2="80" y2="100"/>
+    <line x1="240" y1="40" x2="220" y2="120"/>
+    <line x1="380" y1="10" x2="360" y2="90"/>
+    <line x1="520" y1="30" x2="500" y2="110"/>
+    <line x1="160" y1="150" x2="140" y2="230"/>
+    <line x1="420" y1="160" x2="400" y2="240"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="24" y="24" width="115" height="28" rx="6" fill="#030712" stroke="#a855f7" stroke-width="1" opacity="0.9"/>
+  <text x="33" y="42" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="bold" fill="#c084fc" letter-spacing="1">STEALTH OPS</text>
+</svg>
